@@ -1,0 +1,124 @@
+body{
+  background-color: rgba(9, 63, 95, 0.76);
+font-family: 'Times New Roman', Times, serif
+}
+
+#container{
+
+    width: 70%;
+    margin: 0px auto;
+    border: 2px black;
+
+}
+
+header{
+
+    background-color: blue;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px black;
+}
+nav{
+    background-color: darkcyan;
+    height: 50px;
+    border: 1px black;
+}
+nav ul li{
+
+    float: left;
+    list-style: none;
+    margin: 10px;
+    
+
+}
+
+.clearfix{
+
+    clear:both;
+}
+
+#content{
+
+    float: left;
+width: 80%;
+min-height: 500px;
+background: rgb(60, 45, 124);
+}
+
+aside{
+    float: left;
+    width: 20%;
+    background:blue;
+    min-height: 1100px;
+}
+
+.clearfix{
+
+    clear:both;
+}
+
+.flex-container{
+    display: flex;
+border: 1px black;
+background:#ccc;
+padding: 200px;
+flex-direction: column;
+}
+
+@media(min-width:480px){
+
+ .formulario{
+     flex-direction: row;
+ }
+
+}
+
+@media (min-width:768px){
+
+    .formulario div{
+
+        width: 300px;
+        height: 300px;
+        margin-left: 2%;
+        font-size: 10px;
+    }
+}
+
+@media (min-width:1024px) {
+
+    .container {
+        font-size: 5px;
+    }
+}
+
+@media (min-width:768px){
+
+    .container div{
+
+        width: 300px;
+        height: 300px;
+        Margin-left: 10%;
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1024px) {
+
+    .contenido {
+        font-size: 5px;
+    }
+}
+
+@media (min-width:768px){
+
+    .contenido div{
+
+        width: 300px;
+        height: 300px;
+        Margin-left: 10%;
+        font-size: 20px;
+    }
+
+}
